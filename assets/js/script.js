@@ -67,13 +67,7 @@ $(document).ready(function () {
 //             $("#favicon").attr("href", "assets/images/favhand.png");
 //         }
 //     });
-document.addEventListener("visibilitychange", function() {
-    if (document.hidden) {
-        document.title = "Come back! 🚀";
-    } else {
-        document.title = "Portfolio | Ashraf Eesa";
-    }
-});
+
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
