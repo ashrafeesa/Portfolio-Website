@@ -56,18 +56,24 @@ $(document).ready(function () {
 
 });
 
-document.addEventListener('visibilitychange',
-    function () {
-        if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Ashraf Eesa";
-            $("#favicon").attr("href", "assets/images/ashrafeesa.png");
-        }
-        else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
-        }
-    });
-
+// document.addEventListener('visibilitychange',
+//     function () {
+//         if (document.visibilityState === "visible") {
+//             document.title = "Portfolio | Ashraf Eesa";
+//             $("#favicon").attr("href", "assets/images/ashrafeesa.png");
+//         }
+//         else {
+//             document.title = "Come Back To Portfolio";
+//             $("#favicon").attr("href", "assets/images/favhand.png");
+//         }
+//     });
+document.addEventListener("visibilitychange", function() {
+    if (document.hidden) {
+        document.title = "Come back! 🚀";
+    } else {
+        document.title = "Portfolio | Ashraf Eesa";
+    }
+});
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
