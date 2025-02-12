@@ -1,0 +1,115 @@
+[
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/48/000000/python.png"
+    },
+    {
+        "name": "R",
+        "icon": "https://img.icons8.com/?size=100&id=CLvQeiwFpit4&format=png&color=000000"
+    },
+    {
+        "name": "Pandas",
+        "icon": "https://img.icons8.com/color/48/000000/pandas.png"
+    },
+    {
+        "name": "NumPy",
+        "icon": "https://img.icons8.com/color/48/000000/numpy.png"
+    },
+    
+    {
+        "name": "TensorFlow",
+        "icon": "https://img.icons8.com/color/48/000000/tensorflow.png"
+    },
+    
+   
+    {
+        "name": "Matplotlib",
+        "icon": "https://img.icons8.com/?size=100&id=4VdgitiyspJ9&format=png&color=000000"
+    },
+    {
+        "name": "Seaborn",
+        "icon": "https://img.icons8.com/?size=100&id=42890&format=png&color=000000"
+    },
+    {
+        "name": "SQL",
+        "icon": "https://img.icons8.com/color/48/000000/sql.png"
+    },
+    {
+        "name": "MSSQL Server",
+        "icon": "https://img.icons8.com/?size=100&id=RXrON5kyN96A&format=png&color=000000"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "https://img.icons8.com/color/48/000000/postgreesql.png"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+    },
+    
+    {
+        "name": "Spark",
+        "icon": "https://img.icons8.com/color/48/000000/apache-spark.png"
+    },
+    {
+        "name": "Tableau",
+        "icon": "https://img.icons8.com/color/48/000000/tableau-software.png"
+    },
+    {
+        "name": "Power BI",
+        "icon": "https://img.icons8.com/color/48/000000/power-bi.png"
+    },
+    {
+        "name": "Excel",
+        "icon": "https://img.icons8.com/color/48/000000/ms-excel.png"
+    },
+    {
+        "name": "Git",
+        "icon": "https://img.icons8.com/color/48/000000/git.png"
+    },
+    {
+        "name": "Jupyter Notebook",
+        "icon": "https://img.icons8.com/?size=100&id=J0SgMWzAxqFj&format=png&color=000000"
+    },
+    {
+        "name": "Machine Learning",
+        "icon": "https://img.icons8.com/?size=100&id=66365&format=png&color=000000"
+    },
+    {
+        "name": "Deep Learning",
+        "icon": "https://img.icons8.com/?size=100&id=k4pDhxkT8V6A&format=png&color=000000"
+    },
+    {
+        "name": "Natural Language Processing",
+        "icon": "https://img.icons8.com/?size=100&id=42973&format=png&color=000000"
+    },
+    {
+        "name": "Data Visualization",
+        "icon": "https://img.icons8.com/?size=100&id=UJsUjL1uUZkp&format=png&color=000000"
+    },
+    {
+        "name": "Statistics",
+        "icon": "https://img.icons8.com/color/48/000000/statistics.png"
+    },
+    {
+        "name": "Data Cleaning",
+        "icon": "https://img.icons8.com/?size=100&id=49731&format=png&color=000000"
+    },
+    {
+        "name": "A/B Testing",
+        "icon": "https://img.icons8.com/color/48/000000/ab-testing.png"
+    },
+    {
+        "name": "Cloud Computing",
+        "icon": "https://img.icons8.com/color/48/000000/cloud.png"
+    },
+    {
+        "name": "AWS",
+        "icon": "https://img.icons8.com/color/48/000000/amazon-web-services.png"
+    },
+    {
+        "name": "Google Cloud",
+        "icon": "https://img.icons8.com/color/48/000000/google-cloud.png"
+    }
+    
+]

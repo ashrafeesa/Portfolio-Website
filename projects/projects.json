@@ -1,0 +1,25 @@
+[
+    
+    {
+      "name": "EDA for Titanic Dataset",
+      "desc": "The main objective of this task was to perform data cleaning and exploratory data analysis to gain insights into the Titanic dataset",
+      "image": "EDA",
+      "category": "EDA",
+      "links": {
+        "view": "https://www.linkedin.com/posts/ashraf-k-eesa-b8b8802b4_prodigyinfotech-internship-datascience-activity-7215387243656470530-IM_d?utm_source=share&utm_medium=member_desktop",
+        "code": "https://github.com/ashrafeesa/PRODIGY_DS_02"
+      }
+    },
+    {
+      "name": "Grocery Store Data Analysis and Visualization",
+      "desc": "This project is designed to help grocery store managers understand customer purchasing behavior by cleaning and processing data collected from store transactions",
+      "image": "R project",
+      "category": "Data Analysis and Visualization",
+      "links": {
+        "view": "https://github.com/ashrafeesa/Grocery-Store-Data-Analysis-and-Visualization",
+        "code": "https://github.com/ashrafeesa/Grocery-Store-Data-Analysis-and-Visualization"
+      }
+    
+    } 
+  ]
+    
