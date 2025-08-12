@@ -21,11 +21,11 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Projects | Portfolio Jigar Sable";
-            $("#favicon").attr("href", "/assets/images/favicon");
+            $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "/assets/images/favhand");
+            $("#favicon").attr("href", "/assets/images/favhand.png");
         }
     });
 
@@ -44,7 +44,7 @@ function showProjects(projects) {
     let projectsContainer = document.querySelector(".work .box-container");
     let projectsHTML = "";
     projects.forEach(project => {
-        projectsHTML += `
+        projectsHTML += 
         <div class="grid-item ${project.category}">
         <div class="box tilt" style="width: 380px; margin: 1rem">
       <img draggable="false" src="${project.image}" alt="project" />
@@ -61,10 +61,28 @@ function showProjects(projects) {
         </div>
       </div>
     </div>
-    </div>`
+    </div>
     });
     projectsContainer.innerHTML = projectsHTML;
 
+    // vanilla tilt.js
+    // VanillaTilt.init(document.querySelectorAll(".tilt"), {
+    //     max: 20,
+    // });
+    // // vanilla tilt.js  
+
+    // /* ===== SCROLL REVEAL ANIMATION ===== */
+    // const srtop = ScrollReveal({
+    //     origin: 'bottom',
+    //     distance: '80px',
+    //     duration: 1000,
+    //     reset: true
+    // });
+
+    // /* SCROLL PROJECTS */
+    // srtop.reveal('.work .box', { interval: 200 });
+
+    // isotope filter products
     var $grid = $('.box-container').isotope({
         itemSelector: '.grid-item',
         layoutMode: 'fitRows',
@@ -73,6 +91,7 @@ function showProjects(projects) {
         }
     });
 
+    // filter items on button click
     $('.button-group').on('click', 'button', function () {
         $('.button-group').find('.is-checked').removeClass('is-checked');
         $(this).addClass('is-checked');
@@ -115,4 +134,4 @@ document.onkeydown = function (e) {
     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
         return false;
     }
-}
+} 
